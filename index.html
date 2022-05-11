@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>Emily Hu's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.profile-pic {max-width: 300px}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Yixuan 'Emily' <br>Hu</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#aboutme" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a>
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a>
+    <a href="#free" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Free Time</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Portfolio</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+<!-- About Me -->
+<div class="w3-container" style="margin-top:80px">
+    <h1 class="w3-jumbo"><b>Emily's Portfolio</b></h1>
+</div>
+  <div class="w3-container" id="aboutme" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>About Me.</b></h1>
+    <hr style="width:50px;border:5px solid teal;background-color: teal" class="w3-round">
+    <img src="./img/profile.jpg" border="0" class='profile-pic'>
+    <p>
+      A technology, map, and life enthusiast.
+    </p>
+    <p>
+      More than 5 years of professional + academic experience in product, software development, geography, and analytics with a passion in utilizing technology to transform experiences.
+    </p>
+    <p>
+      Proud graduate of 🌸-filled universities - <a href="https://www.34st.com/article/2021/04/cherry-blossom-spring-seasons-weather-warm-sunny-philly-sakura-culture-aboretum">University of Pennsylvania</a> and <a href="https://en.whu.edu.cn/info/1050/4379.htm">Wuhan University</a>.
+    </p>
+    <p>
+      You can reach me at <a href="mailto:arenahu0106@gmail.com" >arenahu0106@gmail.com</a>
+    </p>
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-pale-red w3-xlarge w3-padding-16">Product</li>
+          <li class="w3-padding-8">Product Design</li>
+          <li class="w3-padding-8">Analytics</li>
+          <li class="w3-padding-8">User Research</li>
+          <li class="w3-padding-8">UI / UX Design</li>
+          <li class="w3-padding-8">Technical Writing</li>
+        </ul>
+      </div>
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+          <li class="w3-teal w3-xlarge w3-padding-16">Development</li>
+          <li class="w3-padding-8">JavaScript</li>
+          <li class="w3-padding-8">Django (Python)</li>
+          <li class="w3-padding-8">SQL Database</li>
+          <li class="w3-padding-8">Machine Learning</li>
+          <li class="w3-padding-8">ArcGIS and other GIS Technologies</li>
+        </ul>
+      </div>
+    </div>
+    <p>
+      Please check my <a href="https://drive.google.com/file/d/1vLIqRs02zDh-eh10M-eDD3IR9xLikDZR/view?usp=sharing" target='_blank'>resume</a> for detailed experience.
+    </p>
+  </div>
+
+  <!-- Product Showcase -->
+  <div class="w3-container" id="showcase" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Showcase.</b></h1>
+        <hr style="width:50px;border:5px solid teal;background-color: teal" class="w3-round">
+    <p>Non-profits, commercial real estate, civic applications, Andriod App, urban development, global trend, etc. Please click to enlarge images for more information.</p>
+  </div>
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="https://2rct3i2488gxf9jvb1lqhek9-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/MMW_browser.png"
+           style="width:100%" onclick="onClick(this)"
+           alt="Explore Human Impacts on Watershed<br>
+           <a href='https://modelmywatershed.org/' target='_blank'>Launch</a>
+           <a href='https://www.azavea.com/projects/model-my-watershed/' target='_blank'>Learn More</a>">
+      <img src="./img/athens.jpg"
+           style="width:100%" onclick="onClick(this)"
+           alt="Interactive Tourist Guide to Athens - Past to Present<br>
+           <a href='./Ancient_Athens/index.html' target='_blank'>Web Application</a>
+           ">
+      <img src="./img/diary.jpg"
+           style="width:100%" onclick="onClick(this)"
+           alt="Time Diary - analyzes and visualizes users’ daily path and highlights to encourage a healthier lifestyle<br>">
+      <img src="./img/paper.jpg"
+                     style="width:100%" onclick="onClick(this)"
+                     alt="Spatial Analysis of Tourist Behavior<br>
+                          <a href='https://www.sciencedirect.com/science/article/abs/pii/S014362281630131X' target='_blank'>Learn More</a>">
+      <img src="./img/suitability.png"
+           style="width:100%" onclick="onClick(this)"
+           alt="Development Suitability in Pennsylvania<br>
+                <a href='https://drive.google.com/open?id=1qwiqSDg0pPUQ-IqV9jmA7sgLiDTf9fHY' target='_blank'>Learn More</a>">
+      <img src="./img/ArcPy.png"
+                     style="width:100%" onclick="onClick(this)"
+                     alt="Assessing Greenery Visibility using ArcPy<br>
+                          <a href='https://drive.google.com/open?id=11ki7lRCLruRtwHLsvHy9whS2gpHoBaR2' target='_blank'>Learn More</a>">
+
+    </div>
+    <div class="w3-half">
+      <img src="./img/fire.jpg"
+           style="width:100%" onclick="onClick(this)"
+           alt="Mitigating Fire Risk w/ Machine Learning for Louisville<br>
+           <a href='https://mayutanaka.github.io/outreach-locator/' target='_blank'>Web Application</a>
+           <a href='https://pennmusa.github.io/MUSA_801.io/project_6/index.html' target='_blank'>Methodology</a>
+           <a href='https://datasmart.ash.harvard.edu/news/article/bringing-big-data-fire-safety' target='_blank'>Project Media Coverage</a>
+           <a href='https://www.design.upenn.edu/musa/post/building-smarter-cities-one-semester-time' target='_blank'>Interview</a>
+           ">
+      <img src="https://knowledgecubed.com/wp-content/uploads/2020/12/3D-Buildings.jpg"
+                style="width:100%" onclick="onClick(this)"
+                alt="3D Map Web Application in Commecial Real Estate<br>
+                <a href='https://saesrius.blob.core.windows.net/content/ESRIUC/Crowsourcing_061520.mp4' target='_blank'>Learn More</a>">
+
+      <img src="./img/parking.png"
+           style="width:100%" onclick="onClick(this)"
+      		 alt="Predicting Vacant Parking Spots in Seattle<br>
+							 <a href='https://yixuanhu0106.github.io/RMD01.html' target='_blank'>Learn More</a>">
+      <img src="./img/GEE.png" style="width:100%" onclick="onClick(this)"
+					 alt="Global Human Activity Trend<br>
+								<a href='https://drive.google.com/open?id=19iM2XbmKKYC9aYj5p1P35T7m2BKTeAPN' target='_blank'>Learn More</a>">
+      <img src="./img/Nashville.png"
+           style="width:100%" onclick="onClick(this)"
+	   alt="Predicting Housing Prices in Nashville<br>
+			          <a href='https://yixuanhu0106.github.io/Nashville_housing_price.html' target='_blank'>Learn More</a>">
+      <img src="./img/Wuhan.png" style="width:100%" onclick="onClick(this)"
+           alt="Land Use Efficiency<br>
+                <a href='https://drive.google.com/open?id=155SP4jd1F0AjwVhTpZEN6_FoGvreNcPo' target='_blank'>Learn More</a>">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Free Time.. -->
+  <div class="w3-container" id="free" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>During My Free Time...</b></h1>
+        <hr style="width:50px;border:5px solid teal;background-color: teal" class="w3-round">
+    <p>Volleyball, orienteering, baking, etc</p>
+    <p>Just enjoy life.</p>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./img/orienteering.jpg"
+           style="width:100%" onclick="onClick(this)"
+           alt="The map used at Asian Championship '14, winning bronze 🥉 for short distance competition in Aichi, Japan">
+      <img src="./img/pastry.jpg"
+           style="width:100%" onclick="onClick(this)"
+           alt="Braided coconut bread with almond - best way to wake up in the morning">
+    </div>
+    <div class="w3-half">
+      <img src="./img/roll.jpeg"
+           style="width:100%" onclick="onClick(this)"
+           alt="Matcha Swiss Roll">
+      <img src="./img/Volleyball.jpg"
+                style="width:100%" onclick="onClick(this)"
+                alt="Serving at the final of University Championship '18">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
