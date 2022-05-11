@@ -1,0 +1,535 @@
+var attractions = {
+  "type": "FeatureCollection",
+  "name": "attraction",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "name": "Acropolis",
+        "period": "Classical",
+        "desp": "The Acropolis was in ancient Greece a settlement, especially a citadel, built upon an area of elevated ground—frequently a hill with precipitous sides, chosen for purposes of defense."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.726356750896038, 37.972308563360663],
+              [23.726452085491562, 37.972227352408915],
+              [23.726904042092578, 37.972259130607426],
+              [23.72700277478409, 37.972172547275107],
+              [23.72712943733821, 37.972161792907308],
+              [23.727192768615268, 37.972084122473177],
+              [23.727497235131409, 37.9720472759507],
+              [23.727497235131409, 37.9720472759507],
+              [23.727536683113062, 37.971997899313372],
+              [23.727645572883713, 37.971935447827263],
+              [23.727956253554314, 37.971860137670589],
+              [23.727956253554314, 37.971860137670589],
+              [23.728281097361293, 37.971256351898923],
+              [23.726367343628873, 37.971076275440709],
+              [23.726367343628873, 37.971076275440709],
+              [23.725117401154193, 37.971401119247687],
+              [23.725117401154193, 37.971401119247687],
+              [23.724820804634778, 37.971443490179034],
+              [23.72471840821736, 37.971750679431281],
+              [23.724863175566124, 37.971785988540738],
+              [23.724859644655179, 37.971906039512881],
+              [23.724909077408412, 37.971980188642732],
+              [23.725170364818375, 37.972057868683535],
+              [23.725572888666154, 37.972174388744733],
+              [23.725572888666154, 37.97223794514175],
+              [23.726356750896038, 37.972308563360663]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "name": "Parthenon",
+        "period": "Classical",
+        "desp": "The magnificent temple on the Acropolis of Athens, known as the Parthenon, was built between 447 and 432 BCE in the Age of Pericles, and it was dedicated to the city’s patron deity Athena."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.726219687965656, 37.971560404713983],
+              [23.726981799373974, 37.97166396689142],
+              [23.727037383200166, 37.971388093012472],
+              [23.726264830453257, 37.971294860669275],
+              [23.726219687965656, 37.971560404713983]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Theatre of Dionysus Eleuthereus",
+        "period": "Classical",
+        "desp": "The Theatre is a major theater in Athens, considered to be the world's first theater, built at the foot of the Acropolis. Dedicated to Dionysus, the god of plays and wine, the theater can seat up to 17,000 people."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.72781826311482, 37.970078668944495],
+              [23.727547408189217, 37.970028215576001],
+              [23.727547408189217, 37.970028215576001],
+              [23.727401358964627, 37.970033526456895],
+              [23.727327006632105, 37.97011053422986],
+              [23.727220789014222, 37.970291104180262],
+              [23.727199545490645, 37.970370767393675],
+              [23.727157058443492, 37.970498228535142],
+              [23.727170335645727, 37.970580547189002],
+              [23.727180957407516, 37.970697386568673],
+              [23.727242032537799, 37.970790326984321],
+              [23.727297796787187, 37.970862023876393],
+              [23.727353561036576, 37.970920443566229],
+              [23.727425257928651, 37.97097355237517],
+              [23.727512887463405, 37.970989485017853],
+              [23.727680180211571, 37.971002762220088],
+              [23.727783742389008, 37.971002762220088],
+              [23.727871371923765, 37.970989485017853],
+              [23.727959001458519, 37.970962930613382],
+              [23.728014765707908, 37.970944342530252],
+              [23.728078496278638, 37.97090982180444],
+              [23.728078496278638, 37.97090982180444],
+              [23.728174092134733, 37.970848746674157],
+              [23.728245789026804, 37.970715974651803],
+              [23.728243133586357, 37.970182231121932],
+              [23.72781826311482, 37.970078668944495]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Odeian of Agrippa",
+        "period": "Roman",
+        "desp": "The two-storey aud itorium was located in the center of the Ancient Agora and seated around 1,000 spectators and was equipped with a raised stage and marble-paved orchestra."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.72289880822672, 37.975222756896855],
+              [23.723381924245672, 37.975215208209057],
+              [23.723393247277368, 37.974754738253495],
+              [23.722902582570619, 37.974754738253495],
+              [23.72289880822672, 37.975222756896855]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Middle Stoa",
+        "period": "Hellenistic",
+        "desp": "The Middle Stoa is just under 150 meters long, it is the largest building in the Agora, with colonnades at both north and south as well as down the middle. Stoas are covered walkways or porticos, commonly for public usage."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722109970352026, 37.974732092190109],
+              [23.723804650762254, 37.974754738253495],
+              [23.723808425106153, 37.9745546980269],
+              [23.722128842071516, 37.974516954587919],
+              [23.722109970352026, 37.974732092190109]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Stoa of Attalos",
+        "period": "Hellenistic",
+        "desp": "Typical of the Hellenistic age, the stoa was more elaborate and larger than the earlier buildings of ancient Athens. The stoa's dimensions are 115 by 20 m and it is made of Pentelic marble and limestone."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.724016014020545, 37.975683226852418],
+              [23.724310412844595, 37.97567567816462],
+              [23.724329284564085, 37.974667928343841],
+              [23.724027337052242, 37.974660379656044],
+              [23.724016014020545, 37.975683226852418]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Hephaisteion",
+        "period": "Classical",
+        "desp": "The Temple of Hephaisestus is a well-preserved Greek temple, which remains standing largely as built. It is a Doric peripteral temple and its patron is the god of metal working, craftsmanship, and fire"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.721311647350451, 37.975720642462491],
+              [23.721662448314483, 37.975649256059945],
+              [23.721618229705577, 37.97552755453691],
+              [23.721267428741537, 37.975596830357539],
+              [23.721311647350451, 37.975720642462491]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "name": "Stoa of Zeus",
+        "period": "Classical",
+        "desp": "The Stoa of Zeus (Eleutherios) at Athens, was a two-aisled stoa located in the northwest corner of the Ancient Agora of Athens. It was built c. 425-410 BC for religious purposes in dedication to Zeus by the pertaining to freedom."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722192719793856, 37.976044544771526],
+              [23.722366760922139, 37.976024069344668],
+              [23.722344579209711, 37.975926811067104],
+              [23.722286565500283, 37.975926811067104],
+              [23.722230258076426, 37.97573911965425],
+              [23.722288271785853, 37.975732294511964],
+              [23.722259264931139, 37.97564186137668],
+              [23.722088636374, 37.975679399659249],
+              [23.722192719793856, 37.976044544771526]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Metroon",
+        "period": "Hellenistic",
+        "desp": "The Athenian Metroon was located on the west side of the city's Agora, in the Old Bouleuterion which formerly housed the city council."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722281729441928, 37.975399684503202],
+              [23.72218632540622, 37.974989032349491],
+              [23.721717601230768, 37.975076140382093],
+              [23.7217673772494, 37.975310502469824],
+              [23.721842041277348, 37.975298058465164],
+              [23.721854485282005, 37.975339538480689],
+              [23.721854485282005, 37.975339538480689],
+              [23.721920853306848, 37.975329168476812],
+              [23.721947815316941, 37.975434942516401],
+              [23.722281729441928, 37.975399684503202]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Temple of Ares",
+        "period": "Roman",
+        "desp": "The Temple of Ares was a sanctuary dedicated to Ares, located in the northern part of the Ancient Agora of Athens. The Temple was identified as such by Pausanias but the ruins present today indicate a complex history."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722562764806213, 37.97562538547605],
+              [23.722961316720895, 37.975606178154862],
+              [23.722963717636045, 37.975471726906534],
+              [23.722562764806213, 37.975476528736834],
+              [23.722562764806213, 37.97562538547605]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Monument of the Eponymous Heroes",
+        "period": "Classical",
+        "desp": "The monument was a marble podium that bore the bronze statues of the ten heroes representing the tribes of Athens."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722389342037861, 37.975217686495085],
+              [23.722434230373185, 37.975212698902268],
+              [23.722399317223488, 37.975015688986126],
+              [23.722354428888163, 37.975018182782534],
+              [23.722389342037861, 37.975217686495085]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "South Stoa",
+        "period": "Hellenistic",
+        "desp": "The South Stoa is theorize that the stoa may have had a second story. Tho two-aisled stoa opened north, with a Doric outer colonnade, an inner colonnade of unkown order and sixteen rooms which lined the southern wall."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.722247979300029, 37.974417833199503],
+              [23.722618268844279, 37.974439940037968],
+              [23.722633006736586, 37.974242820728342],
+              [23.723740190896262, 37.974259400857186],
+              [23.723734664186647, 37.974178342449491],
+              [23.722631164500047, 37.974156235611026],
+              [23.722631164500047, 37.974183869159106],
+              [23.722266401665415, 37.974163604557184],
+              [23.722247979300029, 37.974417833199503]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Library of Hadrian",
+        "period": "Roman",
+        "desp": "The Library of Hadrian was constructed by Roman Emperor Hadrian and was used to store important literary works and legal and administrative documents as well as offer a place to hear lectures and host various philosophical schools."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.726068390041672, 37.97580637975814],
+              [23.727032245300144, 37.975612640007697],
+              [23.726862723018503, 37.975065325212682],
+              [23.725864963303703, 37.975239690988083],
+              [23.726068390041672, 37.97580637975814]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "name": "Roman Agora",
+        "period": "Roman",
+        "desp": "The Roman Agora is located next to the Athenian Agora. An inscription on the architrave of the monumental Gate of Athena Archegetis tells us that Julius Caesar and Augustus provided the funds for its construction in the 1st century"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.725821817654385, 37.974801230365365],
+              [23.726705968102017, 37.974625465517342],
+              [23.726588791536667, 37.974055561313151],
+              [23.72567801005146, 37.974252630991238],
+              [23.725821817654385, 37.974801230365365]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "name": "Pnyx",
+        "period": "Classical",
+        "desp": "Beginning as early as 507 BC (Fifth-century Athens), the Athenians gathered on the Pnyx to host their popular assemblies, thus making the hill one of the earliest and most important sites in the creation of democracy."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.718653064828253, 37.97178551410564],
+              [23.718787610969613, 37.971895597312212],
+              [23.718895247882703, 37.971961647236149],
+              [23.719020008850148, 37.972032589747052],
+              [23.719147216111072, 37.9720741767362],
+              [23.719252406730682, 37.972103532257947],
+              [23.719399184339437, 37.972108424844905],
+              [23.719516606426446, 37.972086408203594],
+              [23.719629135926493, 37.972037482334009],
+              [23.719629135926493, 37.972037482334009],
+              [23.719802822763523, 37.971888258431768],
+              [23.719871318980942, 37.971812423333915],
+              [23.719932476317926, 37.971721910475175],
+              [23.719981402187511, 37.971648521670801],
+              [23.719993633654909, 37.971589810627293],
+              [23.719998526241866, 37.971528653290314],
+              [23.719998526241866, 37.971447925605496],
+              [23.719998526241866, 37.971386768268516],
+              [23.719986294774472, 37.97130359429022],
+              [23.719974063307074, 37.971225312898881],
+              [23.719269530785034, 37.971408784909826],
+              [23.718653064828253, 37.97178551410564]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "name": "Odeon of Herodes Atticus",
+        "period": "Roman",
+        "desp": "It was originally a steep-sloped theater with a three-story stone front wall and a wooden roof made of expensive cedar of Lebanon timber. It was used as a venue for music concerts with a capacity of 5,000."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.72407222177619, 37.970754925472278],
+              [23.724111868243035, 37.970856873529883],
+              [23.724148682819393, 37.970924838901617],
+              [23.724208152519662, 37.97100979561629],
+              [23.724273286000908, 37.971035282630687],
+              [23.724349747044112, 37.971072097207049],
+              [23.724349747044112, 37.971072097207049],
+              [23.724539483706874, 37.971100416111938],
+              [23.724539483706874, 37.971100416111938],
+              [23.724729220369635, 37.971074929097533],
+              [23.724808513303326, 37.971043778302153],
+              [23.724865151113104, 37.971018291287756],
+              [23.724865151113104, 37.971018291287756],
+              [23.724955771608752, 37.970927670792108],
+              [23.724972762951687, 37.970888024325262],
+              [23.724984090513644, 37.97083705029646],
+              [23.724986922404131, 37.970786076267657],
+              [23.724986922404131, 37.970732270348371],
+              [23.724986922404131, 37.970686960100544],
+              [23.72407222177619, 37.970754925472278]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "name": "Olympieion",
+        "period": "Roman",
+        "desp": "The Olympieion is a former colossal temple at the center of the Greece capital Athens. It was dedicated to \"Olympian\" Zeus, a name originating from his position as head of the Olympian gods."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.732484644208885, 37.969570646674377],
+              [23.733719021517903, 37.969562979734569],
+              [23.733719021517903, 37.969191133153899],
+              [23.732476977269076, 37.969187299683995],
+              [23.732484644208885, 37.969570646674377]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "Arch of Hadrian",
+        "period": "Roman",
+        "desp": "The Arch of Hadrian is a monumental gateway resembling - in some respects - a Roman triumphal arch. It spanned an ancient road from the center of Athens, to the complex of structures on the eastern side of the city."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.732034561833288, 37.970231356516173],
+              [23.732059385584275, 37.970216411006049],
+              [23.731995814626728, 37.970113830597278],
+              [23.731967473792366, 37.970129707969321],
+              [23.732034561833288, 37.970231356516173]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "name": "Old Temple of Athena",
+        "period": "Archaic",
+        "desp": "The Old Temple of Athena was an Archaic temple located on the Acropolis between the old Parthenon and Erechtheion, built around 525-500 BC, and dedicated to Athena Polias, the patron deity of the city of Athens."
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [23.726070028157263, 37.971984906654377],
+              [23.726640062967292, 37.972034757607346],
+              [23.726677199986671, 37.971789144249087],
+              [23.726124213975709, 37.971733484456799],
+              [23.726070028157263, 37.971984906654377]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
